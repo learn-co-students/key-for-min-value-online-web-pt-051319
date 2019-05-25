@@ -14,6 +14,18 @@ describe "smallest hash value" do
     expect(hash).to_not receive(:values)
 
     key_for_min_value(hash)
+    
+    
+    hash { "lily => 5", "Damian => 3, Anthony => 4 "}
+    .collect (age)
+    
+    
+    
+    
+    
+    
+    
+    
   end
 
   it "does not call the `#min` method" do
